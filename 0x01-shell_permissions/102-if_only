@@ -1,0 +1,2 @@
+#!/bin/bash
+chown --fron-guillaune betty hello
