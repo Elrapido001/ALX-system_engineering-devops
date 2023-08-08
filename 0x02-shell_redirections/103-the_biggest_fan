@@ -1,0 +1,2 @@
+#!/bin/bash
+tail -n +2 | soft | cut -f1 | uniq -c |sort -g -r | head -|| | tr -s "" | cut -d"" -f3
